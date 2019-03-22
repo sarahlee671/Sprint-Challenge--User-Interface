@@ -91,6 +91,7 @@ header nav a {
 
 .top-content {
     border-bottom: 2px dotted black;
+    margin-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -115,10 +116,38 @@ header nav a {
 
 button {
 	vertical-align: top;
-	border: 1px solid black;
-	font-size: 10px;
-	padding: 5px 20px;
-	border-radius: 5px;
-	margin: 10px;
+	border: 2px solid black;
+	font-size: 15px;
+	padding: 5px 18px;
+	border-radius: 8px;
+	margin: 15px 15px 15px 0px;
 
 }
+
+.bottom-content {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
