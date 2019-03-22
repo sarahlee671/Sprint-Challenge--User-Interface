@@ -75,7 +75,7 @@ header nav{
     display: flex;
     margin-top: 40px;
     width: 800 px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -85,6 +85,8 @@ header nav a {
     color: black;
 }
 
+
+
 .jumbo-about {
     margin-top: 20px;
 }
@@ -92,7 +94,9 @@ header nav a {
 .top-content {
     border-bottom: 2px dotted black;
     margin-top: 20px;
+    margin-left: 20px;
     padding-bottom: 20px;
+    padding-left: 5px;
 }
 
 .middle-content {
@@ -126,7 +130,8 @@ button {
 
 .bottom-content {
     margin-top: 30px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 
